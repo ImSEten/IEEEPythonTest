@@ -15,6 +15,8 @@ def HappyTrailsMain():
     high = round(high, 2)
     print(high)
 
+#HappyTrailsMain()
+
 def SquawkVirus():
     inputparm = input().split()
     num = int(inputparm[0])
@@ -58,6 +60,6 @@ class SingleUser:
     receive = 0
     send = 0
 
-SquawkVirus()
+#SquawkVirus()
 
 
