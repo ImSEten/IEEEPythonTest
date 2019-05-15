@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e4cc823b-3e6e-425d-83f5-6bf2c21b11f6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test-del.py</StartupFile>
+    <StartupFile>FootballDynasty.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="PythonTest.py" />
-    <Compile Include="test-del.py">
+    <Compile Include="FootballDynasty.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
