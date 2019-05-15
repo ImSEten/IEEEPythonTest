@@ -71,72 +71,32 @@ def FootballDynasty():
                 if games[x] == 'W':#白队连胜
                     if (count + 2) % 2 == 0:#胜利偶数场，直接保存当前顺序
                         setoutput = players[0] + ' ' + players[2]#当前顺序
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                     else:#胜利奇数场，交换顺序
                         setoutput = players[2] + ' ' + players[0]#交换顺序
-                        for m in range(len(output)):
-                            if output[m] == setoutput:#有相同的
-                                same = True
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                 else:#黑队连胜
                     if (count + 2) % 2 == 0:#胜利偶数场，直接保存当前顺序
                         setoutput = players[1] + ' ' + players[3]
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                     else:#胜利奇数场，交换顺序
                         setoutput = players[3] + ' ' + players[1]
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
             else:
                 if games[x] == 'W':#白队连胜
                     if (count + 2) % 2 > 0:#胜利奇数场，直接保存当前顺序
                         setoutput = players[0] + ' ' + players[2]#当前顺序
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                     else:#胜利偶数场，交换顺序
                         setoutput = players[2] + ' ' + players[0]#交换顺序
-                        for m in range(len(output)):
-                            if output[m] == setoutput:#有相同的
-                                same = True
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                 else:#黑队连胜
                     if (count + 2) % 2 > 0:#胜利奇数场，直接保存当前顺序
                         setoutput = players[1] + ' ' + players[3]
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
                     else:#胜利偶数场，交换顺序
                         setoutput = players[3] + ' ' + players[1]
-                        for m in range(len(output)):
-                            if output[m] == setoutput:
-                                same = True#有相同的
-                                break
-                        if same != True:
-                            output.append(setoutput)
+                        output.append(setoutput)
         front = games[x]#更新前一个胜利者
     for x in range(len(output)):
         print(output[x])
