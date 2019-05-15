@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e4cc823b-3e6e-425d-83f5-6bf2c21b11f6</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IEEETest.py</StartupFile>
+    <StartupFile>test-del.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
